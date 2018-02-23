@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .build();
+        //zhc
         //获取接口实例
         MovieService movieService = retrofit.create(MovieService.class);
 //调用方法得到一个Call
